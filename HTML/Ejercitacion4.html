@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="M Lourdes Grilli" />
+    <meta name="keywords" content="Entornos Graficos" />
+    <meta name="description" content="Ejerictacion 4 de la practica de HTML de Entornos Graficos" />
+    <title>Ejercitacion 4 HTML</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="https://www.frro.utn.edu.ar/">
+        <img
+          width="100"
+          height="100"
+          alt="logo utn"
+          src="https://www.researchgate.net/profile/Edgardo_Silvi/publication/304575590/figure/fig1/AS:378300909277184@1467205373621/Logo-UTN_Q320.jpg"
+        />
+      </a>
+      <hr />
+    </header>
+    <main>
+      <h1>Año <time datetime="2023">2023</time></h1>
+      <section>
+        <table border="1" cellspacing="0" cellpadding="5" width="500">
+          <tr>
+            <th colspan="2">Examenes</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Fecha:<time datetime="2023-08-23">28/3/2023</time></td>
+            <td>Aprobados</td>
+          </tr>
+          <tr>
+            <td>28/30</td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+
+      <!-- Aca hay bastante css-->
+      <section>
+        <p>Puedes realizar consultas completando el siguiente formulario:</p>
+        <form
+          action="mailto:grillilourdes@gmail.com"
+          method="POST"
+          enctype="text/plain"
+          style="position: relative; height: 6rem"
+        >
+          <label for="mail" width="400px"> <b>e-mail:</b> </label>
+          <input id="mail" type="email" name="email" required style="position: absolute; left: 6rem; width: 15rem" />
+
+          <label for="consulta" style="position: absolute; top: 2rem; left: 0">
+            <b>consulta:</b>
+          </label>
+          <textarea
+            id="consulta"
+            type="text"
+            name="consulta"
+            maxlength="100"
+            required
+            style="position: absolute; top: 2rem; left: 6rem; width: 15rem"
+          ></textarea>
+
+          <button type="submit" style="position: absolute; top: 5rem; left: 5rem">
+            <b>Enviar</b>
+          </button>
+          <button type="reset" style="position: absolute; top: 5rem; left: 9rem">
+            <b>Borrar</b>
+          </button>
+        </form>
+      </section>
+
+      <section>
+        <ol>
+          <li><a href="#enunciado">Enunciado del examen</a></li>
+          <li>
+            <!-- 
+							Motivo para usar rel="noopener":
+							https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy -->
+            <a href="https://svelte.dev/tutorial/image.gif" target="_blank" rel="noopener external"> Resolucion </a>
+          </li>
+        </ol>
+      </section>
+
+      <section id="enunciado">
+        <h2>Enunciado del examen</h2>
+        <p>
+          Ejercicio 1: .................................................................................
+          ..............................................................................................
+        </p>
+        <p>
+          Ejercicio 2: .................................................................................
+          ..............................................................................................
+        </p>
+      </section>
+    </main>
+    <footer>
+      <span>
+        Para mas informacion direigirse a
+        <a href="mailto:contacto@xx.com">contacto@xx.com</a></span
+      >
+    </footer>
+  </body>
+</html>
