@@ -2,9 +2,9 @@
 
 ## 1. Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?
 
-HTML son las siglas de *HyperText Markup Language* (lenguaje de marcado de hipertexto), es un lenguaje que se usa para indicar la estructura basica de una pagina web. Este usa distintas etiquetas para indicar los distintos elementos de del sitio; estos elemento spueden ser titulos, subitulos, parrafos, imagenes, metadatos, etc.
+HTML son las siglas de *HyperText Markup Language* (lenguaje de marcado de hipertexto), es un lenguaje que se usa para indicar la estructura basica de una pagina web. Este usa distintas etiquetas para indicar los distintos elementos del sitio; estos elementos pueden ser titulos, subitulos, parrafos, imagenes, metadatos, etc.
 
-Su version incial fue creada en 1991, con el fin de crear un sistema de hipertexto que les permitiera a los investigadores CERN intercambiar informacion facilmente. Receien en 1995 se publico **HTML 2.0**, que fue la primera estandarizacion del lenguaje. Dos años después, en 1997, se generaron dos nuevas versiones: a principios de año se publicó la versión **HTML 3.2** y, a finales del mismo año, se publicó la actualización **HTML 4.0**. Posteriormente, a finales del año 1999, se publicó una nueva especificación oficial: la versión **HTML 4.01**. Desde el año 2014, **HTML 5** es estándar y, aunque siguen surgiendo nuevas modificaciones y actualizaciones, los cambios son mínimos y fáciles de asimilar. Por ejemplo, una de las últimas recomendaciones es **HTML 5.3**, que salió a principios del 2021, pero no significó un cambio traumático. 
+Su version incial fue creada en 1991, con el fin de crear un sistema de hipertexto que les permitiera a los investigadores CERN intercambiar informacion facilmente. Recien en 1995 se publico **HTML 2.0**, que fue la primera estandarizacion del lenguaje. Dos años después, en 1997, se generaron dos nuevas versiones: a principios de año se publicó la versión **HTML 3.2** y, a finales del mismo año, se publicó la actualización **HTML 4.0**. Posteriormente, a finales del año 1999, se publicó una nueva especificación oficial: la versión **HTML 4.01**. Desde el año 2014, **HTML 5** es estándar y, aunque siguen surgiendo nuevas modificaciones y actualizaciones, los cambios son mínimos y fáciles de asimilar. Por ejemplo, una de las últimas recomendaciones es **HTML 5.3**, que salió a principios del 2021, pero no significó un cambio traumático. 
 
 
 ## 2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
@@ -20,9 +20,9 @@ Siguiendo estos principios básicos, se puede garantizar que el documento HTML s
 
 ## 3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
 
-Un elemento o atributo pasa a estar **desaprobado** o deprecado cuando se desaconsejado su uso, eso puede deberse a que es una etiquera desactualizada para la cual hay una alternativa mejor. Las funcionalidaes deprecadas no son elimindas directamente por los navegadores, ya que esto romperia muchos sitios que la utilizan; pero que una etiqueta este deprecada indica que dentro de poco ser obsoleta.
+Un elemento o atributo pasa a estar **desaprobado** cuando se desaconseja su uso, eso puede deberse a que es una etiquera desactualizada para la cual hay una alternativa mejor. Las funcionalidaes desaprobadas no son elimindas directamente por los navegadores, ya que esto romperia muchos sitios que la utilizan; pero que una etiqueta este desaprobada indica que dentro de poco sera obsoleta.
 
-Un elemento o atributo es **obsoleto** cuando se retira oficialmente del estandar y ya no seguro que sea soportado por los navegadores. En algunos casos, se puede utilizar una etiqueta alternativa para reemplazar la funcionalidad de la etiqueta obsoleta.
+Un elemento o atributo es **obsoleto** cuando se retira oficialmente del estandar y ya no sera soportado por los navegadores. En algunos casos, se puede utilizar una etiqueta alternativa para reemplazar la funcionalidad de la etiqueta obsoleta.
 
         
 ## 4. ¿Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
@@ -36,7 +36,7 @@ Hay 3 DTDs para HTML 4.01:
 
 
 ## 5. ¿Qué son los metadatos y cómo se especifican en HTML?
-Son ítems descriptivos cruciales sobre la propia web, siendo utilizado en diferentes contextos, pero especialmente al momento de informar sobre el concepto general de la página. Por ejemplo, un metadato importante es indicar que al pagina esta codificada con UTF-8, o que el autor es tal persona.
+Son ítems descriptivos cruciales sobre la propia web, siendo utilizado en diferentes contextos, pero especialmente al momento de informar sobre el concepto general de la página. Por ejemplo, un metadato importante es indicar que la pagina esta codificada con UTF-8, o que el autor es tal persona.
 
 Para indicar este dato en el HTML se utiliza la etiqueta `<meta>` , la cual debe estar dentro de `<head>`.
 ```html
