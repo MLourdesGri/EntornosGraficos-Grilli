@@ -8,7 +8,7 @@ En cada caso, explicar las diferencias entre los segmentos de código y sus visu
 ```html
 <a href="http://www.google.com.ar">Click aquí para ir a Google</a>
 ```
-Muesta en pantalla un link a la pagina de google con el texto *"Click aquí para ir a Google"*. Al hacer click el usuario navegara a esa pagina.
+Muestra en pantalla un link a la pagina de google con el texto *"Click aquí para ir a Google"*. Al hacer click el usuario navegara a esa pagina.
 
 <br>
 
@@ -27,7 +27,7 @@ Este fragmento HTML tiene un problema, no se cierra el tag y el hipervinculo no 
 
 - Indica que el url se dirige a un archivo de texto html
 - Indica que el documento al que se dirige esta en español
-- Indica que el doncuemto al que se dirige usa el conjunto de caracteres utf-8
+- Indica que el documento al que se dirige usa el conjunto de caracteres utf-8
 - Indica que el enlace proporciona ayuda o información adicional. 
 
 <br>
@@ -137,7 +137,7 @@ Este extracto muestra una lista ordenada (ordered list) con los mismos tres item
     <li value="3">zzz</li>
 </ol>
 ```
-En este caso, se muestran tres listas ordenadas, cada una con un item. La primera lista contiene xxx con del valor 1 (por defecto). La segunda lista contiene yyy que se le asigna el valor 2 con el atibuto `value`. La tercera hace algo similar mostrando zzz con el valor 3. Este codigo muesta en pantalla el mismo contenido que el ejemplo anterior (sin css), pero semanticamente son distintos.  
+En este caso, se muestran tres listas ordenadas, cada una con un item. La primera lista contiene xxx con el valor 1 (por defecto). La segunda lista contiene yyy que se le asigna el valor 2 con el atibuto `value`. La tercera hace algo similar mostrando zzz con el valor 3. Este codigo muesta en pantalla el mismo contenido que el ejemplo anterior (sin css), pero semanticamente son distintos.  
 
 <br>
 
@@ -200,7 +200,7 @@ Este código HTML muestra una tabla que tiene dos columnas y tres filas, esta ti
     </tr>
 </table>
 ```
-Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. En su lugar el la primera fila usa celdad de datos que adentro contienen div con el texto centrado que adentro con tiene contenido marcado dentro de un tag `<strong>` que lo muesta en negrita. Esteticamente pueden paracer similares pero tiene signifacado distinto.
+Muestra una tabla similar a la anterior pero las columnas no tienen encabezado. En su lugar en la primera fila usa celdas de datos que adentro contienen div con el texto centrado que adentro contiene contenido marcado dentro de un tag `<strong>` que lo muesta en negrita. Esteticamente pueden paracer similares pero tiene signifacado distinto.
 
 <br><br>
 
