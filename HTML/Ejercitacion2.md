@@ -1,8 +1,8 @@
 # Ejercitación 2
 
-HTML está compuesto por un conjunto de elementos que son la base de su estructura. Los elementos están compuestos por dos tags (el de apertura y el de cierre) y el contenido en el medio (con excepción de los elementos vacíos ). Cada tag puede tener atributos(proporcionan ciertas características como altura, ancho, color, etc.) y eventos (asocian un scriptque se ejecuta cuando el evento ocurre).
+HTML está compuesto por un conjunto de elementos que son la base de su estructura. Los elementos están compuestos por dos tags (el de apertura y el de cierre) y el contenido en el medio (con excepción de los elementos vacíos). Cada tag puede tener atributos (proporcionan ciertas características como altura, ancho, color, etc.) y eventos (asocian un script que se ejecuta cuando el evento ocurre).
  
-Analizar los siguientes segmentos de código indicando en qué sección del documento HTML se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos(nombre y valor), aclarando si es obligatorio.
+Analizar los siguientes segmentos de código indicando en qué sección del documento HTML se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos (nombre y valor), aclarando si es obligatorio.
 
 ---
 
@@ -12,7 +12,7 @@ Analizar los siguientes segmentos de código indicando en qué sección del docu
 ```html
 <!-- Código controlado el día 12/08/2009 -->
 ```
-Este fragmento de codigo es simplemente un comentario, puede ubicarse en cualquier lugar del documento HTML. No tiene ningun efecto en el sitio que se renderiza en el navegado, es mas que nada un nota para el programador. 
+Este fragmento de codigo es simplemente un comentario, puede ubicarse en cualquier lugar del documento HTML. No tiene ningun efecto en el sitio que se renderiza en el navegador, es mas que nada un nota para el programador. 
 
 <br>
 
@@ -30,8 +30,8 @@ En este extracto se declara un `<div>`, es decir una division o seccion en el HT
 ```
 La etiqueta `<img/>` es utlizada para colocar una imagen, se coloca dentro del `<body>` y tiene varios atributos:
 - `src` (en este caso no tiene valor), es necesario para indicar que imagen se muestra
-- `alt` cuyo valor es *"lugar imagen"*, necesario para mostrar un texto alternativo cuando no carga la imagen, no es obligarotio pero es buena practica para mejorar la accesibilidad y SEO
-- `id` cuyo valor es *"im1"*, no es obligarotio
+- `alt` cuyo valor es *"lugar imagen"*, necesario para mostrar un texto alternativo cuando no carga la imagen, no es obligatorio pero es buena practica para mejorar la accesibilidad y SEO
+- `id` cuyo valor es *"im1"*, no es obligatorio
 - `name` cuyo valor es *"im1"*, no es obligatorio
 - `width` (ancho) cuyo valor es *"32"*
 - `height` (altura) cuyo valor es *"32"*,
@@ -46,9 +46,9 @@ La etiqueta `<img/>` es utlizada para colocar una imagen, se coloca dentro del `
 ```
 La etiqueta `<meta>` se usa para declarar metadatos, se usa dentro de `<head>`. En este caso se pueden ver los siguientes atributos:
 - `lang` cuyo valor es *"es"*, para indicar el lenguaje. Es opcional.
-- `name` cuyo valor es *"keywords"* que indica al nombre del metadato. Se puede se puede omitir si el metadato que queremos indicar ya tiene un atributo (ej: `lang`), pero sino es obligatorio.
-- `content` que toma los valores *"casa, compra, venta, alquiler"* y luego *"16-Sep-2019 7:49 PM"*, indica el valor de un metadato especifivo. Dependeindo de que metadato se trate puede ser obligatorio o no.
-- `http-equiv` cuyo valor es *"expires"*, sirve para indicar una "directiva pragma", es decir una indicacion para el interptrete de HTML. Es opcional. Se llama asi porque todos los valores que puede tomar son headers http.
+- `name` cuyo valor es *"keywords"* que indica al nombre del metadato. Se puede omitir si el metadato que queremos indicar ya tiene un atributo (ej: `lang`), pero sino es obligatorio.
+- `content` que toma los valores *"casa, compra, venta, alquiler"* y luego *"16-Sep-2019 7:49 PM"*, indica el valor de un metadato especifico. Dependiendo de que metadato se trate puede ser obligatorio o no.
+- `http-equiv` cuyo valor es *"expires"*, sirve para indicar una "directiva pragma", es decir una indicacion para el interprete de HTML. Es opcional. Se llama asi porque todos los valores que puede tomar son headers http.
 
 <br>
 
@@ -60,8 +60,8 @@ La etiqueta `<a>` o *"anchor"* indica un hipervinculo dentro del `<body>`. Muest
 - `href` que indica la url a la que navega ese hipervinculo, en este caso es *"http://www.e-style.com.ar/resumen.html"*. Es obligatorio.
 - `type` indica el tipo de contenido al que apunta la url, en este caso toma el valor de *"text/html"*. Es opcional.
 - `hreflang` indica en que idioma esta el contendio de la url, en este caso toma el valor *"es"*. Es opcional.
-- `charset` indica el codificado de caracters del contenido de la url, en este caso *"utf-8"*. Es opcional.
-- `rel` (relationship) indicar la relación entre la página actual y la página del url. Puede tener un impacto en el SEO y la accesibilidad de la página web, por lo tanto se debe utilizar con precaución y solo cuando sea necesario. En este daso toma el valor *"help"*.
+- `charset` indica el codificado de caracteres del contenido de la url, en este caso *"utf-8"*. Es opcional.
+- `rel` (relationship) indica la relación entre la página actual y la página del url. Puede tener un impacto en el SEO y la accesibilidad de la página web, por lo tanto se debe utilizar con precaución y solo cuando sea necesario. En este daso toma el valor *"help"*.
 
 <br>
 
@@ -92,12 +92,12 @@ La etiqueta `<a>` o *"anchor"* indica un hipervinculo dentro del `<body>`. Muest
 
 Este fragmento tiene muchas etiquetas realcionadas entre si.
 
-Primero de todo hay un etiqueta `<table>` la cual permite mostrar una tabla en el `<body>`.Tiene los squientes atributos:
+Primero de todo hay un etiqueta `<table>` la cual permite mostrar una tabla en el `<body>`.Tiene los siguientes atributos:
 - `width` (ancho) con valor *"200"*. Opcional. 
 - `summary` (resumen) con el valor *"Datos correspondientes al ejercicio vencido"*. Opcional.
 
 Luego esta `<caption>` que proporciona un titulo para la tabla, se debe usar dentor de `<table>`. En el codigo en cuestion solo muestra un atributo:
-- `align` con valor *"top"*, indica que el titulo va en al parte superior de la tabla. No es obligatorio.
+- `align` con valor *"top"*, indica que el titulo se alinea en la parte superior de la tabla. No es obligatorio.
 
 Despues esta `<tr>` que define una fila de una tabla. Debe estar dentro de `<table>`. No muestra atributos.
 
