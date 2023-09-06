@@ -1,0 +1,11 @@
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: larger;
+    text-align: center;
+    background-color: darkolivegreen;
+    border: 5px double black;
+    padding: 10px;
+}
+
+
